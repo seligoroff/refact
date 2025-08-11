@@ -6,7 +6,7 @@ trait UserLegacyAttributes
 {
     protected function logLegacyAccess(string $attribute): void
     {
-        // Тут прописываем полезную инфу 
+        // Тут прописываем полезную инфу с трэйсом
     }
 
     public function getUFnameAttribute(): ?string
